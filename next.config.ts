@@ -1,7 +1,22 @@
-import type { NextConfig } from "next";
+import type {NextConfig} from 'next';
+import createNextIntlPlugin from 'next-intl/plugin';
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const legacyRoutes = {
+  '/agendamento': '/agendar',
+  '/atendimento': '/agendar',
+  '/consulta': '/consultar-processo',
+  '/guia-dire-vistos': '/guia',
+  '/sobrenos': '/sobre',
 };
 
-export default nextConfig;
+const config: NextConfig = {
+  async redirects() {
+    return Object.entries(legacyRoutes).map(([source, destination]) => ({
+      source,
+      destination,
+      permanent: false,
+    }));
+  },
+};
+
+export default createNextIntlPlugin('./src/i18n/request.ts')(config);

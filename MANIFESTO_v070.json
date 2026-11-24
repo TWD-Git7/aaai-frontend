@@ -1,0 +1,282 @@
+[
+  {
+    "path": "LEIA-ME_v070.md",
+    "sha256": "59e729bee2fb7226232ec4a5e9a271b7015eb596ee3035048ae4d2ece42e6257"
+  },
+  {
+    "path": "REVISAO_v070.md",
+    "sha256": "296216f9da9cdc1f30c5be2d56c3dacf0b3fd221bc518dbdadd9b84850f4d1bf"
+  },
+  {
+    "path": "backend/aaai-atendimento.php",
+    "sha256": "87fecc7ab6cc6e50e8c1586037e1560892b3f3ad67f76598bb2f888d1666b73c"
+  },
+  {
+    "path": "eslint.config.mjs",
+    "sha256": "a7ba94fca783845e5aa2a3e0cffcb94a3cfd95423065465b2036e9db42fd4563"
+  },
+  {
+    "path": "next.config.ts",
+    "sha256": "fe543ed99e2fe8b9eedcaf2103a983096ae4b4946d7802f32d6bf1791a2645ad"
+  },
+  {
+    "path": "package-lock.json",
+    "sha256": "e37c80e77a2bb4227d59247098ddfb3da9900cd6465a1cc735304947df325952"
+  },
+  {
+    "path": "package.json",
+    "sha256": "93ad127fb40bd9e0e5d48e3b1e770f947a0e01e00d17e3100cea0bfc1ffbee59"
+  },
+  {
+    "path": "postcss.config.mjs",
+    "sha256": "6c7e6daaf19f8e936b809fb74513186ed056ea58e8c65d052190f3df73bcec65"
+  },
+  {
+    "path": "public/logo-aaai.png",
+    "sha256": "d3233ee5c750a92f13e7f0dc1d0038a387315aa4e8b25ddefac5613fc2deed73"
+  },
+  {
+    "path": "scripts/TESTAR_AAAI_API_v031.ps1",
+    "sha256": "2790453fd6847570f64203f51abec1930f2ee17f5ca31aabf4f6443cdd554403"
+  },
+  {
+    "path": "scripts/configure-wordpress.mjs",
+    "sha256": "96189c242a84cb70559400c34d266cd902f2036e48c160f2dbdd3345e2a83b97"
+  },
+  {
+    "path": "scripts/diagnose-wordpress.mjs",
+    "sha256": "36330b85b400309640e0156b0beb54842a4f73d5d06aea5301011ee547e72b20"
+  },
+  {
+    "path": "scripts/install-v070.mjs",
+    "sha256": "abcb63c1dee470ca770d09b1f8ef1a5e1d5bf9e8073658463432ab382d34dd97"
+  },
+  {
+    "path": "scripts/wordpress-env.mjs",
+    "sha256": "d5a3d92e9d2ed5b8a31f5ff80afaa7d25de7b9f96303132357204c9f5e8e13ff"
+  },
+  {
+    "path": "src/app/[locale]/agendar/page.tsx",
+    "sha256": "76d2b643ed363f907d9f93d3f68851b26c56388345ff3265011870e50612a5b7"
+  },
+  {
+    "path": "src/app/[locale]/area-do-associado/page.tsx",
+    "sha256": "89e7b5733019e5b20231ca1a38687e256025055d5f8739a37fbcb6738e9a5068"
+  },
+  {
+    "path": "src/app/[locale]/consultar-processo/page.tsx",
+    "sha256": "7b64eb373eef68b36a2372f914c36e32d6a665b5f67bb960eac8e6728d586a0c"
+  },
+  {
+    "path": "src/app/[locale]/contactos/page.tsx",
+    "sha256": "1c7f1e2ef8786af355bf5ac7a31ad7582b2b3094de7e0f54072dbeba39514ebb"
+  },
+  {
+    "path": "src/app/[locale]/error.tsx",
+    "sha256": "27cc668d43313b3f344dcf82ef8327a88b57805461e3e54291baa9e1d3438ef7"
+  },
+  {
+    "path": "src/app/[locale]/eventos/[slug]/page.tsx",
+    "sha256": "7defe0d1d88594b6cff8813603732bbe2061f46dc6afdb355b68c6836a4273ee"
+  },
+  {
+    "path": "src/app/[locale]/eventos/page.tsx",
+    "sha256": "5741ca26f0132b884d836653d8801f2f6911547cf03c37e7fee391fbc3b08138"
+  },
+  {
+    "path": "src/app/[locale]/guia/page.tsx",
+    "sha256": "ef215989d1870ef4fb9066744fbaa108cc3ca4d6597b1d6e3676d74be6b5c339"
+  },
+  {
+    "path": "src/app/[locale]/layout.tsx",
+    "sha256": "d3f570b4fe0d897bbe1eb1c2c9a14a00e7a58d766cfbb3df89ba8ad431d2d932"
+  },
+  {
+    "path": "src/app/[locale]/not-found.tsx",
+    "sha256": "4ed2bebe5c86979cfd81022dedf844a47ab094f76b674ae3047ff7d32e206579"
+  },
+  {
+    "path": "src/app/[locale]/noticias/[slug]/page.tsx",
+    "sha256": "24fb2b1fdd885178bdf144fad4dedf7d98d52c8b1932cd61d28a9222e493cbd2"
+  },
+  {
+    "path": "src/app/[locale]/noticias/page.tsx",
+    "sha256": "d78878a56a257040aad147ec0d30559977a6d9e6cbd451e7395266b4833318a1"
+  },
+  {
+    "path": "src/app/[locale]/page.tsx",
+    "sha256": "85cdf79251c9da175486a6e7551f12ff849ff347195527e4003640b45a5dd956"
+  },
+  {
+    "path": "src/app/[locale]/parceiros/[slug]/page.tsx",
+    "sha256": "63ef8a92b5b97b5d7e474e1da6c216e322728ee7158fb96142f24dd6679ffafd"
+  },
+  {
+    "path": "src/app/[locale]/parceiros/page.tsx",
+    "sha256": "be1026e210f219083b2783d42b843f507903ef41d51d14c9ac28f62b5875a0f7"
+  },
+  {
+    "path": "src/app/[locale]/privacidade/page.tsx",
+    "sha256": "cb9d002947209190f86bd26351463cc18cb91c135c9aefb7fd3a2b3f85bda5c3"
+  },
+  {
+    "path": "src/app/[locale]/projectos/[slug]/page.tsx",
+    "sha256": "4b406536dcaaaa734603e62ec26707d82654f5f95fd3fa8389f880ca5e3ca678"
+  },
+  {
+    "path": "src/app/[locale]/projectos/page.tsx",
+    "sha256": "1641ac81b5c7ce69b4f1bde0e3f143d07c0aa622b5a70a75886bff8be63a36c9"
+  },
+  {
+    "path": "src/app/[locale]/servicos/[slug]/page.tsx",
+    "sha256": "fd667365f707042a821fc00ca98f63cb4480baedfadb909319ca73ada15c091b"
+  },
+  {
+    "path": "src/app/[locale]/servicos/page.tsx",
+    "sha256": "7aa8f27d6fe4bab2d07d5423752bdeaa3a5b955ec6dca228480b146efa1e9ae5"
+  },
+  {
+    "path": "src/app/[locale]/sobre/page.tsx",
+    "sha256": "9b5843257e2161b65d9c161445aa161add79e9c72deee46b36d8a9f32914f8e9"
+  },
+  {
+    "path": "src/app/api/appointments/lookup/route.ts",
+    "sha256": "f543528b1c083d793f84846bb09230f49ed2fb097c38b4056fba103765e6e42f"
+  },
+  {
+    "path": "src/app/api/appointments/route.ts",
+    "sha256": "f65741c5bb2a276193e6aaa59067646236a7bb65a46980addad83060c90abf0f"
+  },
+  {
+    "path": "src/app/globals.css",
+    "sha256": "55abca05c80d6faace4de4afdef430885a1e504697fddbb0a19fd1d3244ce197"
+  },
+  {
+    "path": "src/components/back-to-top.tsx",
+    "sha256": "eaae64015f3e3ef86664d55448c59c6619ba3b633f403efcb14a0086484b3d07"
+  },
+  {
+    "path": "src/components/booking-form.tsx",
+    "sha256": "a7930676ee22e3b04030b66d00c2cf82f46cc1958cd3164e338bb40d565a7961"
+  },
+  {
+    "path": "src/components/content-detail.tsx",
+    "sha256": "2517daa9269d55ec241912d6104d5631381b707cac6d2d0f24768047ff8356c7"
+  },
+  {
+    "path": "src/components/content-section.tsx",
+    "sha256": "520f170608d772b575aa86a895bb512256e848abb433359d5cce58aba665e295"
+  },
+  {
+    "path": "src/components/footer.tsx",
+    "sha256": "e7cf9893652c7ce0ba2dcab46cd85c051ae5363ded05c852c008535af4ba902b"
+  },
+  {
+    "path": "src/components/header.tsx",
+    "sha256": "f1ce0b6c5a9ece7327f9d975153790aece4c3c42338eb20219b03a88f8546eab"
+  },
+  {
+    "path": "src/components/hero.tsx",
+    "sha256": "905339dc48458fb6a61f9afcbfb221b2efb9562562817ad2e4a482cdfbf53081"
+  },
+  {
+    "path": "src/components/request-form.tsx",
+    "sha256": "29ba89fafa2b892e9bf8444b13ae006a7337159420d57307045475495ea31780"
+  },
+  {
+    "path": "src/components/service-grid.tsx",
+    "sha256": "5909679421391f0dc5a491b7e680fe25b57c41d5bad0d0c5c6a82d37e9ce01a1"
+  },
+  {
+    "path": "src/components/tracking-form.tsx",
+    "sha256": "c353fe69f68920350d19a872d24932da87131a16c565dac0c542332b58d0ceaf"
+  },
+  {
+    "path": "src/i18n/navigation.ts",
+    "sha256": "c88b024077e2b440f61aaca8648b36485c5ad0a77f07bb7e3db0024f7b8c4488"
+  },
+  {
+    "path": "src/i18n/request.ts",
+    "sha256": "9e0132bc1d353e57fda88f502d93205ffd55acfa2457c2d6be5896af26342ec8"
+  },
+  {
+    "path": "src/i18n/routing.ts",
+    "sha256": "21f26612dbc3e5059b606efecb1bbfc5db12ce3a4008e06029d1bda0c6fd1aef"
+  },
+  {
+    "path": "src/lib/appointments-server.ts",
+    "sha256": "1c6a02683dcc24d903ecbab04bf59a3b54a0d89fb89d281d63729364ccb76539"
+  },
+  {
+    "path": "src/lib/appointments.ts",
+    "sha256": "09324a11be249e6bfca8a04618c053f3afe080c015f5d6bd0a86a7df1deef4da"
+  },
+  {
+    "path": "src/lib/content.ts",
+    "sha256": "82a79d74dd67036366edf793cf736be3a223decdb67d24d75082a38632a160a7"
+  },
+  {
+    "path": "src/lib/public-config.ts",
+    "sha256": "fab919f2d138a1c2319d6fd7cd92d903cf0a870882cfca9de6f01b66dba2008a"
+  },
+  {
+    "path": "src/lib/request-links.ts",
+    "sha256": "4227027197b242f47f0659ec46135b8d91e2589380c81b397198e435bd0fc290"
+  },
+  {
+    "path": "src/lib/rich-text.ts",
+    "sha256": "029389e13bf76e0a803a94cfde191180b0e092c175879247056e4160193363c9"
+  },
+  {
+    "path": "src/lib/wordpress.ts",
+    "sha256": "5ba7e98ff10618d31d58f913a4d8e81acf8302cbbb4ba64ad9a10bde1c6326e5"
+  },
+  {
+    "path": "src/messages/en.json",
+    "sha256": "296a39ead973f593d7c7eb515b4057be7cbc13bcb0f425d3952803e514815d79"
+  },
+  {
+    "path": "src/messages/es.json",
+    "sha256": "2fbec88473961d7273e0cdfe9c6ceada98217b726cf9ba62eed178d7b159fa93"
+  },
+  {
+    "path": "src/messages/fr.json",
+    "sha256": "d3838592898e6857ab3facd62926c6fe06ba188b0d837653924f7e582de5df43"
+  },
+  {
+    "path": "src/messages/pt.json",
+    "sha256": "b971f8d968f2113fd535f5566a7af803007bddbf385ce6f104c0b5c221dbad40"
+  },
+  {
+    "path": "src/proxy.ts",
+    "sha256": "0b3253cadb070105cdf0ac6a0b0c315b1317620a3c2b671f0cc4d74dbc8fca2e"
+  },
+  {
+    "path": "tests/appointments.test.mjs",
+    "sha256": "a5894892156645e448c6076104e1133d7ffaf5f700be944d5266b2ce872498e5"
+  },
+  {
+    "path": "tests/content.test.mjs",
+    "sha256": "30b514998ec3d8342a43a9ad660a3fb0e324f408a16d7fc49c88f05072233e4e"
+  },
+  {
+    "path": "tests/environment.test.mjs",
+    "sha256": "3b861962f68ea7523c71a2227304eb3267324bd3b39015e9e147fc910ccded09"
+  },
+  {
+    "path": "tests/installer.test.mjs",
+    "sha256": "28b41b4a83e9832ec5b916732e91fd4a462cacdb4be6f5c4c350b4734b95093a"
+  },
+  {
+    "path": "tests/public-config.test.mjs",
+    "sha256": "9e0b46d259d916fa10ba3301411a2f104d3003d53465d02279bfd939856880f2"
+  },
+  {
+    "path": "tests/rich-text.test.mjs",
+    "sha256": "e4aa796932cc6ab82ffad844669c70c166b7f14a7a7138a4b55fca1b7908d1c7"
+  },
+  {
+    "path": "tsconfig.json",
+    "sha256": "a2eac2d4e9c225c801591908b6f1b9f85e810516e5f6c4fce64d4e6a29b28323"
+  }
+]
