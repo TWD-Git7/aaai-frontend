@@ -1,53 +1,19 @@
-## Deploy on Vercel
+# Portal da AAAI
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Portal institucional da Associação Angolana de Apoio a Imigrantes, em português, inglês, francês e espanhol. O frontend usa Next.js e consulta o WordPress para obter o catálogo de serviços, notícias, eventos, projectos e parceiros.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Executar
 
-## Serviços para AAAI
+1. Use Node.js 22.20 ou superior.
+2. Copie `.env.example` para `.env.local` e defina `WORDPRESS_API_URL` com a URL REST da sua instalação.
+3. Execute `npm ci` e `npm run dev`. Abra http://localhost:3000.
 
-🛂 Vistos e DIRE
-📑 Tradução e Legalização de Documentos
-⚖️ Apoio Jurídico Migratório
-👨‍👩‍👧 Reagrupamento Familiar
-🌍 Consultoria Migratória
-🏛 Apoio Consular
-💼 Emprego e Integração Profissional
-🎓 Formação e Capacitação
-👨‍🎓 Apoio ao Estudante Internacional
-❤️ Atendimento Humanitário
-🏠 Acolhimento e Integração Social
-🤝 Mediação Institucional e Empresarial
+## Publicar
 
+O alojamento precisa de executar o servidor Next.js. Use `npm ci`, `npm run build` e `npm start`. Configure `WORDPRESS_API_URL` com a URL HTTPS do WordPress de produção, com o plugin `aaai-content` activo.
 
-## 🚀 RESULTADO FINAL
+Para receber e consultar pedidos, instale `backend/aaai-atendimento.php` como MU-plugin no WordPress e configure a mesma chave privada nas duas aplicações. Consulte [o guia v0.7.0](LEIA-ME_v070.md) para a instalação, a localização da configuração privada e a gestão dos pedidos. Guarde a chave nas variáveis privadas do alojamento e na configuração privada do WordPress.
 
-### Agora o teu projeto AAAI tem:
+Execute `npm run verify` para validar o código e `npm run diagnose` para validar a ligação ao WordPress. Antes de apontar a produção à nova versão, valide um pedido de ponta a ponta em homologação. Se existirem pedidos da versão anterior, confirme como a equipa continuará a acompanhá-los.
 
-## 🏛️ ESTRUTURA PROFISSIONAL REAL
-Navbar institucional
-Footer completo
-Layout global consistente
-Navegação mobile
-UX moderna
-📱 EXPERIÊNCIA DE UTILIZADOR
-WhatsApp sempre disponível
-Navegação rápida
-Estrutura clara
-🌍 PADRÃO INTERNACIONAL
-nível ONG / governo / organização internacional
-pronto para produção real
-🧭 PRÓXIMO PASSO (recomendado)
-
-Agora podemos evoluir para nível ainda mais alto:
-
-🔥 OPÇÃO 1 — SEO avançado real (OG images + sitemap)
-🔥 OPÇÃO 2 — Painel admin (ver pedidos de atendimento)
-🔥 OPÇÃO 3 — Integração real email (Nodemailer / Resend)
-🔥 OPÇÃO 4 — Dashboard da AAAI (tipo sistema interno)
-
-Se quiser continuar, diz:
-
-👉 “quero sistema de atendimento com email real”
-ou
-👉 “quero painel admin da AAAI”
+A versão anterior tinha páginas próprias para FAQ, login e administração no frontend. Esta versão usa a área do associado e a administração de atendimentos do WordPress. O envio de e-mail pelo fluxo anterior precisa de avaliação antes da mudança de produção.
